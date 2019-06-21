@@ -13,6 +13,16 @@ Dirb https://github.com/v0re/dirb
 
 Kan es una herramienta de código abierto, con el cual fue creado para uso exclusivo para fines de estudio, El creador de esta herramienta no se hace responsable por el la utilización de la herramienta “Kan” creada por “R1314”. 
 
+Dentro de Pentest, existen 3 funciones:
+
+  Wordpress
+Para el correcto uso de la herramienta, se recomienda seleccionar Wordpress para dicha plataforma, el cual se utiliza WPSCAN, CheckWeb y Nmap.
+
+  Webservice
+Esta función utiliza solo Nmap y CheckWeb, esta corresponde para todo tipo de Sitio Web.
+
+  Hard
+Esta utiliza la herramienta de Nikto + Dirb para una búsqueda exhaustiva.
 
 
 Instalación
