@@ -15,13 +15,13 @@ Kan es una herramienta de código abierto, con el cual fue creado para uso exclu
 
 Dentro de Pentest, existen 3 funciones:
 
-  Wordpress
+  Wordpress:
 Para el correcto uso de la herramienta, se recomienda seleccionar Wordpress para dicha plataforma, el cual se utiliza WPSCAN, CheckWeb y Nmap.
 
-  Webservice
+  Webservice:
 Esta función utiliza solo Nmap y CheckWeb, esta corresponde para todo tipo de Sitio Web.
 
-  Hard
+  Hard:
 Esta utiliza la herramienta de Nikto + Dirb para una búsqueda exhaustiva.
 
 
