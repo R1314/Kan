@@ -12,7 +12,7 @@ clear
 option=0
 until [ "$option" = "5" ]; do
 echo ""
-echo "   -----------  Falabella Seguridad Agil  ------------ "
+echo "   -----------  Easy Pentest  ------------ "
 echo ""
 echo "	██░  ██░ ████░     ████░ ██░"
 echo "	██░ ██░  ██░██░    ██░██░██░"
