@@ -388,10 +388,8 @@ echo -n "Target: "
 read target
 echo "nmap Start."
 nmap --script=vuln $target
-clear
 echo "nmap Start.."
 nmap -sV $target
-clear
 echo "nmap Start..."
 sleep 2
 echo "checkweb Start."
@@ -400,11 +398,9 @@ python checkweb.py -u https://$target -sec -tec
 clear
 echo "checkweb Start.."
 sleep 1
-clear
 echo "checkweb Start..."
 sleep 4
 cd /root/Kan
-clear
 echo "checkweb Done"
 nmap --script=method $target 
 sleep 2
