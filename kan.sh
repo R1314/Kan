@@ -387,9 +387,9 @@ echo ""
 echo -n "Target: "
 read target
 echo "nmap Start."
-nmap --script=vuln $target
+nmap -sV --script=vuln $target
 echo "nmap Start.."
-nmap -sV $target
+sleep 1
 echo "nmap Start..."
 sleep 2
 echo "checkweb Start."
