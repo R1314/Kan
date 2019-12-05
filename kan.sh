@@ -1,3 +1,4 @@
+
 #!/bin/bash
 echo "Loading..."
 sleep 1
@@ -395,14 +396,12 @@ sleep 2
 echo "checkweb Start."
 cd /root/Kan/checkweb
 python checkweb.py -u https://$target -sec -tec 
-clear
 echo "checkweb Start.."
 sleep 1
 echo "checkweb Start..."
 sleep 4
 cd /root/Kan
 echo "checkweb Done"
-nmap --script=method $target 
 sleep 2
 echo "TestSSL..."
 testssl $target
